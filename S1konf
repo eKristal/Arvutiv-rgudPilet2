@@ -1,0 +1,21 @@
+
+Current configuration : 1333 bytes
+!
+version 15.0
+no service timestamps log datetime msec
+no service timestamps debug datetime msec
+no service password-encryption
+!
+hostname S1
+!
+enable secret 5 $1$mERr$m1slDCHhMX9jPOb98xavu.
+!
+!
+!
+ip ssh version 2
+ip domain-name too.net
+!
+username admin secret 5 $1$mERr$m1slDCHhMX9jPOb98xavu.
+!
+!
+!
